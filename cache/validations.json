@@ -1,0 +1,175 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "Lottery": {
+        "src": "contracts/Lottery.sol:5",
+        "version": {
+          "withMetadata": "7129df1261664f67db42723f1b6a464901dc8011817c90e9b2222df73086fc44",
+          "withoutMetadata": "84f78029a5b5135678a4177fabedee5cccca86605c726d307a92e7e10c181e61",
+          "linkedWithoutMetadata": "84f78029a5b5135678a4177fabedee5cccca86605c726d307a92e7e10c181e61"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "enter()",
+          "getRandomNumber()",
+          "getContractBalance()",
+          "pickWinner()",
+          "getWinner()",
+          "getPlayers()",
+          "resetLottery()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Lottery",
+            "src": "contracts/Lottery.sol:10"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Lottery",
+              "label": "players",
+              "type": "t_array(t_address_payable)dyn_storage",
+              "src": "contracts/Lottery.sol:6"
+            },
+            {
+              "contract": "Lottery",
+              "label": "manager",
+              "type": "t_address",
+              "src": "contracts/Lottery.sol:7"
+            },
+            {
+              "contract": "Lottery",
+              "label": "index",
+              "type": "t_uint256",
+              "src": "contracts/Lottery.sol:8"
+            }
+          ],
+          "types": {
+            "t_array(t_address_payable)dyn_storage": {
+              "label": "address payable[]"
+            },
+            "t_address_payable": {
+              "label": "address payable"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "console": {
+        "src": "hardhat/console.sol:4",
+        "version": {
+          "withMetadata": "0273ca56bc62a169d39617fc8d04e5eccbb524069d267163b49f7ab6201d2d6c",
+          "withoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db",
+          "linkedWithoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Lottery": {
+        "src": "contracts/Lottery.sol:5",
+        "version": {
+          "withMetadata": "7129df1261664f67db42723f1b6a464901dc8011817c90e9b2222df73086fc44",
+          "withoutMetadata": "84f78029a5b5135678a4177fabedee5cccca86605c726d307a92e7e10c181e61",
+          "linkedWithoutMetadata": "84f78029a5b5135678a4177fabedee5cccca86605c726d307a92e7e10c181e61"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "enter()",
+          "getRandomNumber()",
+          "getContractBalance()",
+          "pickWinner()",
+          "getWinner()",
+          "getPlayers()",
+          "resetLottery()"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Lottery",
+            "src": "contracts/Lottery.sol:10"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Lottery",
+              "label": "players",
+              "type": "t_array(t_address_payable)dyn_storage",
+              "src": "contracts/Lottery.sol:6"
+            },
+            {
+              "contract": "Lottery",
+              "label": "manager",
+              "type": "t_address",
+              "src": "contracts/Lottery.sol:7"
+            },
+            {
+              "contract": "Lottery",
+              "label": "index",
+              "type": "t_uint256",
+              "src": "contracts/Lottery.sol:8"
+            }
+          ],
+          "types": {
+            "t_array(t_address_payable)dyn_storage": {
+              "label": "address payable[]"
+            },
+            "t_address_payable": {
+              "label": "address payable"
+            },
+            "t_address": {
+              "label": "address"
+            },
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "console": {
+        "src": "hardhat/console.sol:4",
+        "version": {
+          "withMetadata": "0273ca56bc62a169d39617fc8d04e5eccbb524069d267163b49f7ab6201d2d6c",
+          "withoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db",
+          "linkedWithoutMetadata": "a64c6cf9c6ba9368f5132c93a0196b3204a7963dbb4dd05dfddb4ab23126b8db"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}
